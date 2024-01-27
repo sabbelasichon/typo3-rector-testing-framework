@@ -16,11 +16,13 @@ To add a set to your config, use one of the classes from sets under `Ssch\\Typo3
 
 ```php
 use Ssch\Typo3RectorTestingFramework\Set\NimutTestingFrameworkSetList;
+use Ssch\Typo3RectorTestingFramework\Set\TYPO3TestingFrameworkSetList;
 use Rector\Config\RectorConfig;
 
 return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->sets([
         NimutTestingFrameworkSetList::NIMUT_TESTING_FRAMEWORK_TO_TYPO3_TESTING_FRAMEWORK,
+        TYPO3TestingFrameworkSetList::TYPO3_TESTING_FRAMEWORK_7,
     ]);
 };
 ```
