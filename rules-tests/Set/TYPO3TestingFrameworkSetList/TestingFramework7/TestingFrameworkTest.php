@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 namespace Ssch\Typo3RectorTestingFramework\Tests\Set\TYPO3TestingFrameworkSetList\TestingFramework7;
@@ -7,7 +8,6 @@ use Rector\Testing\PHPUnit\AbstractRectorTestCase;
 
 final class TestingFrameworkTest extends AbstractRectorTestCase
 {
-
     /**
      * @dataProvider provideData
      */

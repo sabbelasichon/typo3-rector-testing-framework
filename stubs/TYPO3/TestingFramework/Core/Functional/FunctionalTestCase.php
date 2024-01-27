@@ -7,5 +7,12 @@ if (class_exists('TYPO3\TestingFramework\Core\Functional\FunctionalTestCase')) {
 
 class FunctionalTestCase
 {
+    public function executeFrontendRequest(): void
+    {
 
+    }
+    public function executeFrontendSubRequest(): void
+    {
+
+    }
 }
