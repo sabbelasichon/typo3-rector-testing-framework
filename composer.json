@@ -22,8 +22,8 @@
     },
     "scripts": {
         "phpstan": "phpstan analyse --ansi --error-format symplify",
-        "check-cs": "ecs check --ansi",
-        "fix-cs": "ecs check --fix --ansi",
+        "check-style": "ecs check --ansi",
+        "fix-style": "ecs check --fix --ansi",
         "docs": "rule-doc-generator generate src rules --output-file docs/rector_rules_overview.md --ansi"
     },
     "authors": [
