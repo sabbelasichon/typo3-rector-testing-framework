@@ -1,0 +1,19 @@
+parameters:
+    level: 8
+
+    reportUnmatchedIgnoredErrors: false
+
+    paths:
+        - config
+        - src
+        - tests
+        - rules
+        - rules-tests
+
+    scanDirectories:
+        - stubs
+
+    excludePaths:
+        - */Source/*
+        - */Fixture/*
+        - */Fixture*/*
