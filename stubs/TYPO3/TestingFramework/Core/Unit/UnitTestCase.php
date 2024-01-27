@@ -8,4 +8,5 @@ if (class_exists('TYPO3\TestingFramework\Core\Unit\UnitTestCase')) {
 
 class UnitTestCase
 {
+    protected bool $resetSingletonInstances = false;
 }
