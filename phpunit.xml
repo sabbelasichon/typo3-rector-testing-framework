@@ -7,7 +7,6 @@
 >
     <testsuites>
         <testsuite name="main">
-            <directory>tests</directory>
             <directory>rules-tests</directory>
         </testsuite>
     </testsuites>

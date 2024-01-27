@@ -1,7 +1,5 @@
 # Rector Rules for TYPO3 Testing Framework
 
-See available [TYPO3 Testing Framework rules](/docs/rector_rules_overview.md)
-
 ## Install
 
 All you need to do is install the package, and you're good to go:
