@@ -39,6 +39,12 @@ return static function (RectorConfig $rectorConfig): void {
             'configurationToUseInTestInstance',
             new ArrayType(new StringType(), new StringType())
         ),
+
+        new AddPropertyTypeDeclaration(
+            'TYPO3\TestingFramework\Core\Functional\FunctionalTestCase',
+            'initializeDatabase',
+            new BooleanType()
+        ),                                 
     ]);
 
     $rectorConfig->ruleWithConfiguration(RenameMethodRector::class, [
