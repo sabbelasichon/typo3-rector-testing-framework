@@ -21,6 +21,7 @@ return static function (RectorConfig $rectorConfig): void {
     $rectorConfig->sets([
         NimutTestingFrameworkSetList::NIMUT_TESTING_FRAMEWORK_TO_TYPO3_TESTING_FRAMEWORK,
         TYPO3TestingFrameworkSetList::TYPO3_TESTING_FRAMEWORK_7,
+        TYPO3TestingFrameworkSetList::RESET_SINGLETON_PROPERTY_INSTEAD_OF_TEARDOWN,
     ]);
 };
 ```
